@@ -41,3 +41,4 @@ insert into Book2(book_id,first_name,last_name,address,city,state,zip,phone_no,e
 select * from Book2;
 
 alter table contact_type add foreign key(book_id) references Book2(book_id);
+

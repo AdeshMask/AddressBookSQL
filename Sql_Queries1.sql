@@ -54,4 +54,4 @@ select min(salary) from employee_payroll where Gender = 'F' group by Gender;
 select max(salary) from employee_payroll where Gender = 'F' group by Gender;
 /////////////////////////////////////////////////////////////////////////////////////////////
 select * from employee_payroll;
-SELECT * FROM employee_payroll WHERE Start_Date > '2021-12-28'; 
+SELECT * FROM employee_payroll WHERE Start_Date > '2021-12-28';
